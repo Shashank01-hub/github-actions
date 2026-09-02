@@ -7,6 +7,9 @@ import App from './App';
 //   // expect(linkElement).not.toBeInTheDocument();
 // });
 
+// test('intentional failure', () => {
+//   expect(1).toBe(2);
+// });
 test('intentional failure', () => {
-  expect(1).toBe(2);
+  expect(true).toBe(false);
 });
